@@ -13,7 +13,7 @@ a {
   border: 1px solid #808080;
   display: inline-block;
   padding: 5px 10px;
-  font-size: 20px;
+  font-size: 1.5rem;
   position: relative;
   text-align: left;
   border-radius: 3px;
@@ -32,17 +32,21 @@ a {
 }
 
 .btn-primary {
-  background-image: linear-gradient(#FB941D, #E4724D);
-   
+  border: 1px solid #4B3082;
+  background-image: linear-gradient(#5D3FBB, #4B3082);
   transition: 0.3s;
   opacity: 1;
+  width: 100px;
+  max-width: 350px;
+  text-align: center;
 }
 
 .btn-primary:hover{
-  background-image: linear-gradient(#FB8702, #E45729);
+  border: 1px solid #FFF;
+  background-image: linear-gradient(#5D3FBB, #4B3082);
   opacity: 0.9;
-  outline:0px !important;
-    -webkit-appearance:none;
+  outline: 0px !important;
+  -webkit-appearance: none;
 }
 .btn:focus,.btn:active {
   outline: none !important;
@@ -52,7 +56,7 @@ a {
 h1.logo {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-	font-size: 4.5rem;
+  font-size: 4.2rem;
 }
 
 .fill-height{
@@ -66,7 +70,8 @@ h1.logo {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: bold
+  font-weight: bold;
+  width:100%;
 }
 .link a, .icons-social a {
 	color: #CEA7FF;
@@ -82,4 +87,16 @@ h1.logo {
 	font-size: 3rem;
   color: #FFF;
   text-decoration: none;
+}
+
+#login {
+  margin:0 auto;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+#subscribe {
+  margin:0 auto;
+  max-width: 300px;
+  min-width: 200px;
 }

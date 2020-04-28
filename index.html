@@ -16,19 +16,28 @@
 
 <body>
     <div class="container fill-height">
-        <div class="row">
-            <div class="col-lg-1"></div>
-            <div id="hello" class="col-lg-10 text-center">
-				<h1 class="logo">Consciously</h1>
-				<div class="icons-social mb-1">
-					<a target="_blank" href="https://facebook.com/consciouslyapp"><i class="fab fa-facebook mr-2"></i></a>
-					<a target="_blank" href="https://instagram.com/connectconsciously"><i class="fab fa-instagram mr-2"></i></a>
-					<a class="_blank" href="https://twitter.com/consciouslyapp"><i class="fab fa-twitter mr-2"></i></a>
-					<a href="mailto:info@consciously.pt"><i class="fas fa-envelope"></i></a>
-				</div>
+			<div class="row">
+				<div id="hello" class="text-center">
+					<h1 class="logo">Consciously</h1>
+					<h2 class=" mt-4 mb-2">Your holistic lifestyle platform</h2>
+					<form id="subscribe" enctype="application/json" method="POST" action="https://api.consciously.io/subscribe" class="w-100 mt-4">
+						<div class="input-group">
+								<input type="email" class="form-control "  id="email" name="email" placeholder="Email address" autocomplete="email" required>
+								<span class="input-group-btn">
+									<button class="btn btn-primary">Subscribe</button>
+								</span>
+						</div>
+					</form>
+					<div class="icons-social mb-1 mt-4">
+							<a target="_blank" href="https://facebook.com/consciouslyapp"><i class="fab fa-facebook mr-2"></i></a>
+							<a target="_blank" href="https://instagram.com/connectconsciously"><i class="fab fa-instagram mr-2"></i></a>
+							<a class="_blank" href="https://twitter.com/consciouslyapp"><i class="fab fa-twitter mr-2"></i></a>
+							<a href="mailto:info@consciously.pt"><i class="fas fa-envelope"></i></a>
+					</div>
 			</div>
-        </div>
-    </div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
