@@ -59,6 +59,11 @@ h1.logo {
   font-size: 4.2rem;
 }
 
+h2.tagline {
+	font-weight: 600;
+  font-size: 1.7rem;
+}
+
 .fill-height{
   position: relative;
    min-height: 100%;
