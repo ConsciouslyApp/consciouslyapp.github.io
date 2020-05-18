@@ -132,7 +132,6 @@ h2.tagline {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255);
   animation: animate 25s linear infinite;
   bottom: -150px;
   
@@ -220,7 +219,7 @@ h2.tagline {
 
   0%{
       transform: translateY(0) rotate(0deg);
-      opacity: 0.5;
+      opacity: 0.25;
       border-radius: 100%;
   }
 
