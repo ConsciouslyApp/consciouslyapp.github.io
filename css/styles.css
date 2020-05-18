@@ -1,8 +1,8 @@
 /* PAGE & INPUT STYLING */
 body {
-  background: #5D3FBB;
-  background-image: linear-gradient(#BB68D4,#5D3FBB);
-  color: #FFF;
+  background-image: url('logo.svg');
+  background-color:rgb(246, 245, 240);
+  color: rgb(66, 49, 69);
 }
 
 a {
@@ -21,7 +21,7 @@ a {
   transition: background 600ms ease, color 600ms ease;
 }
 .btn span {
-  border: 1px solid #413a3a;
+  border: 1px solid rgb(209, 208, 204);
   display: inline-block;
   padding: 1px 6px;
   font-size: 12px;
@@ -32,8 +32,8 @@ a {
 }
 
 .btn-primary {
-  border: 1px solid #4B3082;
-  background-image: linear-gradient(#5D3FBB, #4B3082);
+  border: none;
+  background-image: linear-gradient(rgb(131, 99, 149), rgb(131, 99, 149));
   transition: 0.3s;
   opacity: 1;
   width: 100px;
@@ -42,11 +42,12 @@ a {
 }
 
 .btn-primary:hover{
-  border: 1px solid #FFF;
-  background-image: linear-gradient(#5D3FBB, #4B3082);
+  border: none;
+  background-image: linear-gradient(rgb(242, 168, 2), rgb(242, 188, 2));
   opacity: 0.9;
   outline: 0px !important;
   -webkit-appearance: none;
+  box-shadow: 1px 1px 2px rgb(216, 168, 0), 0 0 10px rgb(216, 168, 0), 0 0 5px rgb(216, 168, 0);
 }
 .btn:focus,.btn:active {
   outline: none !important;
@@ -54,9 +55,15 @@ a {
 }
 
 h1.logo {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Aleo', serif;
 	font-weight: 600;
   font-size: 4.2rem;
+}
+
+h2.tagline {
+  font-family: 'Aleo', serif;
+	font-weight: 400;
+  font-size: 1.7rem;
 }
 
 .fill-height{
@@ -74,7 +81,7 @@ h1.logo {
   width:100%;
 }
 .link a, .icons-social a {
-	color: #CEA7FF;
+	color: rgb(131, 99, 149);
 	transition: 0.3s;
 }
 .icons-social a{
@@ -85,7 +92,7 @@ h1.logo {
 }
 .icons-social a:hover, .link a:hover{
 	font-size: 3rem;
-  color: #FFF;
+  color: rgb(242, 168, 2);
   text-decoration: none;
 }
 
