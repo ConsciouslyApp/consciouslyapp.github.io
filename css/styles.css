@@ -32,8 +32,9 @@ a {
 }
 
 .btn-primary {
+  font-family: 'Aleo', serif;
   border: none;
-  background-image: linear-gradient(rgb(131, 99, 149), rgb(131, 99, 149));
+  background-image: linear-gradient(rgb(228, 87, 41), rgb(228, 87, 41));
   transition: 0.3s;
   opacity: 1;
   width: 100px;
@@ -43,11 +44,11 @@ a {
 
 .btn-primary:hover{
   border: none;
-  background-image: linear-gradient(rgb(242, 168, 2), rgb(242, 188, 2));
+  background-image: linear-gradient(rgb(255, 99, 46), rgb(255, 99, 46));
   opacity: 0.9;
   outline: 0px !important;
   -webkit-appearance: none;
-  box-shadow: 1px 1px 2px rgb(216, 168, 0), 0 0 10px rgb(216, 168, 0), 0 0 5px rgb(216, 168, 0);
+  box-shadow: 1px 1px 2px rgb(248, 123, 81), 0 0 2px rgb(255, 99, 46), 0 0 2px rgb(255, 134, 94);
 }
 .btn:focus,.btn:active {
   outline: none !important;
@@ -62,7 +63,8 @@ h1.logo {
 
 h2.tagline {
   font-family: 'Aleo', serif;
-	font-weight: 400;
+  font-weight: 400;
+
   font-size: 1.7rem;
 }
 
@@ -81,7 +83,7 @@ h2.tagline {
   width:100%;
 }
 .link a, .icons-social a {
-	color: rgb(131, 99, 149);
+	color: #836395;
 	transition: 0.3s;
 }
 .icons-social a{
@@ -92,7 +94,7 @@ h2.tagline {
 }
 .icons-social a:hover, .link a:hover{
 	font-size: 3rem;
-  color: rgb(242, 168, 2);
+  color: rgb(255, 99, 46);
   text-decoration: none;
 }
 
