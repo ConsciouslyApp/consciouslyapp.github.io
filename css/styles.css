@@ -236,3 +236,8 @@ h2.tagline {
   }
 
 }
+
+.small-icon {
+  font-size: 0.8rem;
+  height: 0.8rem
+}
