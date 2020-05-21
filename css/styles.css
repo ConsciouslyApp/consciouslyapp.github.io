@@ -114,6 +114,7 @@ h2.tagline {
     margin:0 auto;
     max-width: 280px;
     min-width: 200px;
+    line-height: 2.2rem;
   }
 }
 
